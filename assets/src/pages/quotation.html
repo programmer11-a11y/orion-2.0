@@ -5,21 +5,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quotation</title>
-     <!-- Project favicon link -->
-     <link rel="icon" href="../images/favicon.png" type="image/gif" />
-     <!-- All device viewport meta -->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
-         rel="stylesheet" />
-     <!-- Custom Libraries style start -->
-     <!-- Swiper Bundle slider style file -->
-     <link rel="stylesheet" href="../css/swiper-bundle.css" />
-     <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
-     <!-- Custom Libraries style end -->
-     <!-- Custom style file -->
-     <link href="../css/output.css" rel="stylesheet" />
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.1.1/css/intlTelInput.css" />
+    <!-- Project favicon link -->
+    <link rel="icon" href="../images/favicon.png" type="image/gif" />
+    <!-- All device viewport meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- Custom Libraries style start -->
+    <!-- Swiper Bundle slider style file -->
+    <link rel="stylesheet" href="../css/swiper-bundle.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <!-- Custom Libraries style end -->
+    <!-- Custom style file -->
+    <link href="../css/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.1.1/css/intlTelInput.css" />
 </head>
 
 <body>
@@ -1242,6 +1242,12 @@
                                                         </a>
                                                     </div>
                                                 </div>
+                                                <div class="p-[30px] ">
+                                                    <h6
+                                                        class="text-black/50 font-medium uppercase text-center font-lexend">
+                                                        No Result Found
+                                                    </h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1339,7 +1345,8 @@
                             </h5>
                             <div class="grid grid-cols-1 md:grid-cols-2 2xl:gap-7 xl:gap-6 md:gap-4.5 gap-4 mb-4">
                                 <div class="flex flex-col items-start ">
-                                    <input type="text" name="enterCity" placeholder="Enter city *" data-label="City" required
+                                    <input type="text" name="enterCity" placeholder="Enter city *" data-label="City"
+                                        required
                                         class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message -->
                                     <div
@@ -1354,7 +1361,8 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-start ">
-                                    <input type="text" name="enterArea" placeholder="Enter area *" data-label="Area" required
+                                    <input type="text" name="enterArea" placeholder="Enter area *" data-label="Area"
+                                        required
                                         class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1399,8 +1407,8 @@
                                     <!-- Custom Dropdown -->
                                     <div class="custom-dropdown w-full" data-dropdown="project-type">
 
-                                        <div
-                                            class="dropdown-selected flex items-center justify-between w-full border border-[#E2E2E2] !text-[#00000080] xl:px-3 px-2 xl:py-2.5 py-2 p font-light transition-all cursor-pointer" required>
+                                        <div class="dropdown-selected flex items-center justify-between w-full border border-[#E2E2E2] !text-[#00000080] xl:px-3 px-2 xl:py-2.5 py-2 p font-light transition-all cursor-pointer"
+                                            required>
                                             <span class="dropdown-text text-[#00000080]">Project type *</span>
                                             <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2">
@@ -1441,8 +1449,8 @@
                                 <!-- Custom Dropdown 2 -->
                                 <div class="flex flex-col items-start ">
                                     <div class="custom-dropdown" data-dropdown="construction-type">
-                                        <div
-                                            class="dropdown-selected flex items-center justify-between w-full border border-[#E2E2E2] !text-[#00000080] xl:px-3 px-2 xl:py-2.5 py-2 p font-light transition-all" required>
+                                        <div class="dropdown-selected flex items-center justify-between w-full border border-[#E2E2E2] !text-[#00000080] xl:px-3 px-2 xl:py-2.5 py-2 p font-light transition-all"
+                                            required>
                                             <span class="dropdown-text text-[#00000080]">Construction Type *</span>
                                             <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2">
@@ -1478,7 +1486,8 @@
                                 </div>
 
                                 <div class="flex flex-col items-start ">
-                                    <input type="number" name="builtupArea" placeholder="Built-up Area (sq.ft) *" data-label="Built-up Area" required
+                                    <input type="number" name="builtupArea" placeholder="Built-up Area (sq.ft) *"
+                                        data-label="Built-up Area" required
                                         class="no-spinner apperance-none w-full xl:px-3 px-2 xl:py-2.5 py-2 p border border-[#00000026] focus:border-teal-700 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1493,7 +1502,8 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-start ">
-                                    <input type="number" placeholder="Plot Size (sq.ft) *" name="plotSize" data-label="Plot Size" required
+                                    <input type="number" placeholder="Plot Size (sq.ft) *" name="plotSize"
+                                        data-label="Plot Size" required
                                         class="no-spinner w-full xl:px-3 px-2 xl:py-2.5 py-2 p border border-[#00000026] focus:border-teal-700 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1508,7 +1518,8 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-start ">
-                                    <input type="number" placeholder="No. of floors *" name="floors" data-label="No. of floors" required
+                                    <input type="number" placeholder="No. of floors *" name="floors"
+                                        data-label="No. of floors" required
                                         class="no-spinner w-full xl:px-3 px-2 xl:py-2.5 py-2 p border border-[#00000026] focus:border-teal-700 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1653,7 +1664,8 @@
                             </h5>
                             <div class="grid grid-cols-1 md:grid-cols-2 2xl:gap-7 xl:gap-6 md:gap-4.5 gap-4">
                                 <div class="flex flex-col items-start md:col-span-2">
-                                    <input type="number" placeholder="Estimated budget (₹) *" name="budget" data-label="Estimated budget" required
+                                    <input type="number" placeholder="Estimated budget (₹) *" name="budget"
+                                        data-label="Estimated budget" required
                                         class="no-spinner  w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1669,7 +1681,8 @@
                                 </div>
                                 <div class="flex flex-col items-start ">
                                     <div class="relative w-full">
-                                        <input type="date" placeholder="Expected start date *" name="startDate" data-label="Start Date" required
+                                        <input type="date" placeholder="Expected start date *" name="startDate"
+                                            data-label="Start Date" required
                                             class="appearance-none w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                         <img src="../images/calendor.svg"
                                             class="absolute top-2.5 left-auto right-2.5 pointer-events-none bg-white 1xl:w-[29px] 1xl:h-[29px] lg:w-[27px] lg:h-[27px] sm:w-[25px] sm:h-[25px] w-[22px] h-[22px]" />
@@ -1689,7 +1702,7 @@
                                 <div class="flex flex-col items-start ">
                                     <div class="relative w-full">
                                         <input type="date" name="" placeholder="Expected completion timeline"
-                                        name="completionDate" data-label="Completion Date *" required
+                                            name="completionDate" data-label="Completion Date *" required
                                             class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                         <img src="../images/calendor.svg"
                                             class="absolute top-2.5 left-auto right-2.5 pointer-events-none bg-white 1xl:w-[29px] 1xl:h-[29px] lg:w-[27px] lg:h-[27px] sm:w-[25px] sm:h-[25px] w-[22px] h-[22px]" />
@@ -1716,7 +1729,8 @@
                             </h5>
                             <div class="grid grid-cols-1 md:grid-cols-2 2xl:gap-7 xl:gap-6 md:gap-4.5 gap-4">
                                 <div class="flex flex-col items-start ">
-                                    <input type="text" placeholder="Full name *" name="fullName" data-label="Full name" required
+                                    <input type="text" placeholder="Full name *" name="fullName" data-label="Full name"
+                                        required
                                         class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1730,25 +1744,27 @@
                                         <span class="error-text p2"></span>
                                     </div>
                                 </div>
-                               <!-- Phone number -->
-                               <div class="col-span-1 w-full form-group relative">
-                                <input id="phone" name="phone" type="tel" placeholder="Phone number *"
-                                    class="w-full border focus:border-primary-900 outline-none border-[#00000026] p font-light placeholder:text-[#00000080] text-balck" data-label="Phone number" required />
-                                <!-- Error message with SVG icon -->
-                                <div
-                                    class="text-red-500 mt-2 opacity-0 transition-all ease-in-out error-message hidden items-center gap-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
-                                        viewBox="0 0 17 17" fill="none">
-                                        <path
-                                            d="M9.35 9.35H7.65V4.25H9.35M9.35 12.75H7.65V11.05H9.35M8.5 0C7.38376 0 6.27846 0.219859 5.24719 0.647024C4.21592 1.07419 3.27889 1.70029 2.48959 2.48959C0.895533 4.08365 0 6.24566 0 8.5C0 10.7543 0.895533 12.9163 2.48959 14.5104C3.27889 15.2997 4.21592 15.9258 5.24719 16.353C6.27846 16.7801 7.38376 17 8.5 17C10.7543 17 12.9163 16.1045 14.5104 14.5104C16.1045 12.9163 17 10.7543 17 8.5C17 7.38376 16.7801 6.27846 16.353 5.24719C15.9258 4.21592 15.2997 3.27889 14.5104 2.48959C13.7211 1.70029 12.7841 1.07419 11.7528 0.647024C10.7215 0.219859 9.61624 0 8.5 0Z"
-                                            fill="#D21C1C" />
-                                    </svg>
-                                    <span class="error-text p2"></span>
+                                <!-- Phone number -->
+                                <div class="col-span-1 w-full form-group relative">
+                                    <input id="phone" name="phone" type="tel" placeholder="Phone number *"
+                                        class="w-full border focus:border-primary-900 outline-none border-[#00000026] p font-light placeholder:text-[#00000080] text-balck"
+                                        data-label="Phone number" required />
+                                    <!-- Error message with SVG icon -->
+                                    <div
+                                        class="text-red-500 mt-2 opacity-0 transition-all ease-in-out error-message hidden items-center gap-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                                            viewBox="0 0 17 17" fill="none">
+                                            <path
+                                                d="M9.35 9.35H7.65V4.25H9.35M9.35 12.75H7.65V11.05H9.35M8.5 0C7.38376 0 6.27846 0.219859 5.24719 0.647024C4.21592 1.07419 3.27889 1.70029 2.48959 2.48959C0.895533 4.08365 0 6.24566 0 8.5C0 10.7543 0.895533 12.9163 2.48959 14.5104C3.27889 15.2997 4.21592 15.9258 5.24719 16.353C6.27846 16.7801 7.38376 17 8.5 17C10.7543 17 12.9163 16.1045 14.5104 14.5104C16.1045 12.9163 17 10.7543 17 8.5C17 7.38376 16.7801 6.27846 16.353 5.24719C15.9258 4.21592 15.2997 3.27889 14.5104 2.48959C13.7211 1.70029 12.7841 1.07419 11.7528 0.647024C10.7215 0.219859 9.61624 0 8.5 0Z"
+                                                fill="#D21C1C" />
+                                        </svg>
+                                        <span class="error-text p2"></span>
+                                    </div>
                                 </div>
-                            </div>
 
                                 <div class="relative col-span-1">
-                                    <input type="email" id="email" name="email" placeholder="Email *" data-label="Email *" required
+                                    <input type="email" id="email" name="email" placeholder="Email *"
+                                        data-label="Email *" required
                                         class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -1763,7 +1779,8 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col items-start ">
-                                    <input type="text" placeholder="Company name *" name="company" data-label="Company name" required
+                                    <input type="text" placeholder="Company name *" name="company"
+                                        data-label="Company name" required
                                         class="w-full xl:px-3 px-2 xl:py-2.5 py-2 p font-light placeholder:text-[#00000080] text-balck border border-[#00000026] focus:border-teal-700 focus:ring-1 focus:ring-primary-900 transition-all" />
                                     <!-- Error message with SVG icon -->
                                     <div
@@ -2103,7 +2120,7 @@
         </footer>
     </div>
 
-   <!-- Custom Libraries script js start -->
+    <!-- Custom Libraries script js start -->
     <!-- jquery min js file -->
     <script src="../js/jquery.min.js" defer></script>
     <!-- Swiper bundle js file -->
